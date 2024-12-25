@@ -8,17 +8,17 @@ function VidePlayer() {
     }
   return (
     <>
-    <div>
-        <h1>Video Streaming</h1>
-        <button onClick={handelStreamVideo}>Stream Video</button>
+    <div  >
+        <h1>Video Streaming Click On The 'Stream Video' </h1>
         {
             video && (
-                <video width="320" height="240" controls>
+                <video width="900" height="700" controls>
                     <source src={video} type="video/mp4" />
                 </video>
             )
 
         }
+        <button onClick={handelStreamVideo}>Stream Video</button>
     </div>
     </>
   )

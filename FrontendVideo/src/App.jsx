@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import VidePlayer from './Video/VidePlayer'
 import './App.css'
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
 
   return (
     <>
-      
+      <div className="App">
+      <VidePlayer />
+    </div>
     </>
   )
 }
